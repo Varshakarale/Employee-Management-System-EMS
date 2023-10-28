@@ -20,7 +20,7 @@ public class User {
     private Long id;
 
     @NotBlank
-    @Column(name = "username") // Corrected column names to follow naming conventions
+    @Column(name = "username") 
     private String username;
 
     @NotBlank
